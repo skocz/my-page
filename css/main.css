@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{font-family: 'Lato', sans-serif;}
+
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, a, address,
+img, sub, sup, ol, ul, li, fieldset, form, label,table,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+figure, figcaption, footer, header, menu, nav, section {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
