@@ -68,3 +68,6 @@ header{
   font: 900 1.8rem 'Josefin Sans', sans-serif;
   font-variant: small-caps;
 }
+.core-nav-item-contact{
+  margin-left: auto;
+}
