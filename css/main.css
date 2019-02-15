@@ -25,6 +25,39 @@ figure, figcaption, footer, header, menu, nav, section {
 }
 
 /*
+ HEADER MOBILE
+ */
+ .header-menu {
+  display: none;
+}
+@media only screen and (max-width: 1004px){
+  .header-menu {
+    display: inline-block;
+    position: relative;
+  }
+  .header-menu svg {
+    width:82px;
+    fill: #FBFCFF;
+  }
+  .core-nav-items{
+    transform: translate(-40000px, 0);
+    transition: transform 1s;
+  }
+  .core-nav-item{
+    width: 100%;
+    height: 70px;
+  }
+  .core-nav{
+    display: flex;
+    height: auto !important;
+  }
+  .open-menu{
+    flex-wrap: wrap;
+    text-align: center;
+    transform: translate(0,0);
+  }
+}
+/*
  HEADER
  */
 header{
