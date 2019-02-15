@@ -47,7 +47,7 @@ header{
   display: flex;
   justify-content: flex-start;
   margin: 0;
-  padding: 20px 30px;
+  padding: 10px 30px;
   width: 100%;
 }
 .core-nav-item{
@@ -58,6 +58,9 @@ header{
 }
 .core-nav-item:hover{
 
+}
+.core-nav-item-active {
+  color:red;
 }
 .core-nav-item > a {
   text-decoration: none;
