@@ -243,7 +243,20 @@ HERO HEADER
   background-image: linear-gradient(to top,
     rgba(164, 207, 232),
     rgba(0, 0, 0, 0.1));
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+  background-image: -webkit-linear-gradient(to top,
+    rgba(164, 207, 232),
+    rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(to top,
+    rgba(164, 207, 232),
+    rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(to top,
+    rgba(164, 207, 232),
+    rgba(0, 0, 0, 0.1));
+  shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
     0 0 40px rgba(0, 0, 0, 0.06);
   border: 2px solid #BBDBEE;
   width: 279px;
