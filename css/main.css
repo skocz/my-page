@@ -200,13 +200,13 @@ HERO HEADER
 }
 .name-hero{
   position: absolute;
-  top: 55px;
+  top: 45px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 37px;
+  font-size: 3rem;
 }
 .job-hero{
   position: absolute;
-  top: 99px;
+  top: 90px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 23px;
+  font-size: 2rem;
 }
