@@ -177,7 +177,21 @@ HERO HEADER
   height: 100%;
   clip-path: polygon(50% 0%, 75% 50%, 60% 35%, 50% 50%, 39% 40%, 25% 50%);
 }
+.hero-description{
+  position: absolute;
+  top: 45px;
+}
+.hero-description{
+  transform: scale(1);
+  transition: all 1s;
+  animation-dely:2s;
+  animation: 1400ms zoom-text ease;
+}
 
+@keyframes zoom-text {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
 .hero-welcome{
   position: absolute;
   top: 182px;
@@ -198,15 +212,33 @@ HERO HEADER
     5px 6px 1px #eee,
     7px 6px 1px #ccc;
 }
-.name-hero{
-  position: absolute;
-  top: 45px;
+.hero-txt{
   font-family: 'Quicksand', sans-serif;
+}
+.name-hero{
+  padding-bottom: 21px;
   font-size: 3rem;
 }
 .job-hero{
-  position: absolute;
-  top: 90px;
-  font-family: 'Quicksand', sans-serif;
   font-size: 2rem;
+}
+.hero-work-btn{
+  background-image: linear-gradient(to top,
+    rgba(164, 207, 232),
+    rgba(0, 0, 0, 0.1));
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06);
+  border: 2px solid #BBDBEE;
+  width: 279px;
+  height: 63px;
+  left: 27px;
+  top: 139px;
+  position: absolute;
+}
+.btn-styles{
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  cursor: pointer;
 }
