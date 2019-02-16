@@ -129,6 +129,7 @@ HERO HEADER
   background: grey;
   bottom: 0%;
   clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 .one{
   background:#a4a9ad;
@@ -177,6 +178,7 @@ HERO HEADER
   width: 100%;
   height: 100%;
   clip-path: polygon(50% 0%, 75% 50%, 60% 35%, 50% 50%, 39% 40%, 25% 50%);
+  -webkit-clip-path: polygon(50% 0%, 75% 50%, 60% 35%, 50% 50%, 39% 40%, 25% 50%);
 }
 .hero-description{
   position: absolute;
