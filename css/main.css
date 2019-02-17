@@ -80,9 +80,9 @@ a:visited{
   .hero-description > .job-hero{
     font-size: 1.5rem;
   }
-  .menu-item:not(.core-nav-item-active):hover{
+  /* .core-nav-item:not(.core-nav-item-active):hover{
     background: none;
-  }
+  } */
 }
 /*
  HEADER
@@ -119,7 +119,7 @@ header{
   padding: 30px;
   color: #FFF;
 }
-.menu-item:not(.core-nav-item-active):hover{
+.core-nav-item:not(.core-nav-item-active):hover{
   background: rgba(255,255,255,0.2);
 }
 .core-nav-item-active {
