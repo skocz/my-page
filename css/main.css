@@ -72,12 +72,13 @@ a:visited{
   }
   .hero-description > .hero-txt{
     padding-bottom: 28px;
+    line-height: 1.25em;
   }
   .hero-description > .name-hero{
     font-size: 2rem;
   }
   .hero-description > .job-hero{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .menu-item:not(.core-nav-item-active):hover{
     background: none;
