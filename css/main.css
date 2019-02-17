@@ -73,7 +73,7 @@ header{
     #BB0A21 31px);
   height: 100vh;
   max-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .core-nav{
   background-color: rgba(0, 0, 0, 0.8);
@@ -181,8 +181,7 @@ HERO HEADER
   -webkit-clip-path: polygon(50% 0%, 75% 50%, 60% 35%, 50% 50%, 39% 40%, 25% 50%);
 }
 .hero-description{
-  position: absolute;
-  top: 45px;
+  top: 46px;
 }
 .hero-description{
   -webkit-transform: scale(1);
@@ -231,9 +230,9 @@ HERO HEADER
 }
 .hero-txt{
   font-family: 'Quicksand', sans-serif;
+  padding-bottom: 21px;
 }
 .name-hero{
-  padding-bottom: 21px;
   font-size: 3rem;
 }
 .job-hero{
@@ -261,9 +260,10 @@ HERO HEADER
   border: 2px solid #BBDBEE;
   width: 279px;
   height: 63px;
-  left: 27px;
-  top: 139px;
-  position: absolute;
+  display: block;
+  /* left: 27px; */
+  /* top: 139px; */
+  /* position: absolute; */
 }
 .btn-styles{
   padding: 10px 25px;
