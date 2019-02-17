@@ -59,6 +59,18 @@ a:visited{
     text-align: center;
     transform: translate(0,0);
   }
+  .hero-description{
+    top:65px;
+  }
+  .hero-txt{
+    padding-bottom: 28px;
+  }
+  .name-hero{
+    font-size: 2rem;
+  }
+  .job-hero{
+    font-size: 1.7rem;
+  }
 }
 /*
  HEADER
